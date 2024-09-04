@@ -87,7 +87,7 @@ IAM Roles: For granting access permissions.
 GitHub Actions
 The CI/CD pipeline is automated using GitHub Actions. The workflow performs the following tasks:
 
- Checkout Code: Checks out the repository code.
+Checkout Code: Checks out the repository code.
 Set Up Terraform: Installs and configures Terraform.
 Authenticate with Google Cloud: Sets up authentication for GCP.
 Set Up Google Cloud SDK: Installs the Google Cloud SDK.
