@@ -1,7 +1,6 @@
 provider "google" {
-  credentials = file("C:/Users/admin/Downloads/my-current-time-5cde0474ce73.json")
-  project     = "my-current-time"
-  region      = var.region
+  project = "my-current-time"
+  region  = var.region
 }
 
 provider "kubernetes" {
