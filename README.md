@@ -66,4 +66,3 @@ EXPOSE 8080
 # Set the command to run your application
 CMD ["java", "-jar", "/app/current-time.jar"]
 
-
