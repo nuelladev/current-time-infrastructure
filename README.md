@@ -75,20 +75,18 @@ IAM Roles and Policies: Manage permissions.
 VPC Networking and Subnets: Configures networking for secure communication.
 Kubernetes Resources: Includes Deployments, Services, and Ingress.
 
-Terraform Configuration
+## Terraform Configuration
 The Terraform code is located in the infrastructure directory. It defines the following resources:
-
 VPC Network and Subnetwork: For networking setup.
 GKE Cluster: For running the Kubernetes workload.
 NAT Router and NAT Gateway: For managing outbound traffic.
 Kubernetes Deployment and Service: For deploying the API in Kubernetes.
 IAM Roles: For granting access permissions.
 
-GitHub Actions
+## GitHub Actions
 The CI/CD pipeline is automated using GitHub Actions. The workflow performs the following tasks:
-
-Checkout Code: Checks out the repository code.
-Set Up Terraform: Installs and configures Terraform.
+1. Checkout Code: Checks out the repository code.
+2. Set Up Terraform: Installs and configures Terraform.
 Authenticate with Google Cloud: Sets up authentication for GCP.
 Set Up Google Cloud SDK: Installs the Google Cloud SDK.
 Terraform Init: Initializes Terraform configuration.
